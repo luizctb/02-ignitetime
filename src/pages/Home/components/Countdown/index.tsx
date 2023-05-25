@@ -49,12 +49,12 @@ export function Countdown() {
   }, [minutes, seconds, activeCycle])
 
   return (
-    <CountdownContainerContainer>
+    <CountdownContainer>
       <span>{minutes[0]}</span>
       <span>{minutes[1]}</span>
-      <Separatorator>:</Separator>
+      <Separator>:</Separator>
       <span>{seconds[0]}</span>
-      <span>{seconds[1]}</span>
+      <span>{seconds[1]}</span>      
     </CountdownContainer>
   )
 }

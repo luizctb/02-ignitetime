@@ -103,7 +103,7 @@ export function Home() {
               Interromper
           </StopCountdownButton>
         ) : ( 
-            <StartCountdownButton /*boolean={!isSubmitDisabled}*/> type="submit">
+            <StartCountdownButton /*boolean={!isSubmitDisabled}*/ type="submit">
               <Play size={24} />
               Começar
             </StartCountdownButton>
