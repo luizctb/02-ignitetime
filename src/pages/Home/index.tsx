@@ -1,17 +1,16 @@
-import { HandPalm, Play } from "phosphor-react";
+import { HandPalm, Play } from "phosphor-react"
 import { FormProvider, useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import * as zod from 'zod'
-import { createContext, useState } from "react";
+import { createContext, useState } from "react"
 
 import { 
   HomeContainer, 
   StartCountdownButton, 
   StopCountdownButton,  
-} from "./styles";
-import { NewCycleForm } from "./components/NewCycleForm";
-import { Countdown } from "./components/Countdown";
-import { NewCycleForm } from './components/NewCycleForm/index';
+} from "./styles"
+import { NewCycleForm } from "./components/NewCycleForm"
+import { Countdown } from "./components/Countdown"
 
 interface Cycle {
   id: string
